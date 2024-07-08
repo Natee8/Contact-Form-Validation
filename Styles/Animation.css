@@ -1,0 +1,8 @@
+.Submitt input:hover {
+    background-color: #85d79f;
+    border: 1px solid #85d79f;
+}
+
+.BorderStyle {
+    border: 2px solid rgb(239, 102, 102) !important;
+}

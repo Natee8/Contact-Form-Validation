@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(229, 255, 229);
+}
+
+.ContainerContact {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 3%;
+}
+
+.ContactUS {
+  width: 35%;
+  height: auto;
+  min-width: 500px;
+  min-height: 600px;
+
+  background-color: white;
+  padding: 5rem 2rem;
+
+  border-radius: 10px;
+}
+
+.ContactUS h1 {
+  font-size: 2rem;
+  font-weight: 500;
+
+  margin-bottom: 2rem;
+}

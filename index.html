@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./Styles/Animation.css">
+  <link rel="stylesheet" href="./Styles/Header.css">
+  <link rel="stylesheet" href="./Styles/Contact.css">
+  <link rel="stylesheet" href="./assets/ResetCSS/Reset.css">
+  <title>Contact form</title>
+</head>
+
+<body>
+  <div class="ContainerContact">
+    <div class="ContactUS" id="Form">
+      <h1>Contact Us</h1>
+      <div class="nameText" name="TextColor">
+        <p>First Name *</p>
+        <p>Last Name *</p>
+      </div>
+      <div class="Name">
+        <input type="text" name="ElementsCamp" onblur="NameValidation(event)">
+        <input type="text" name="ElementsCamp" onblur="NameValidation(event)">
+      </div>
+      <div class="Email">
+        <p name="TextColor">Email Address *</p>
+        <input type="text" name="ElementsCamp" onblur="EmailValidation()">
+      </div>
+      <p>Query Type *</p>
+      <div class="containerInpt">
+        <div class="InptRadio">
+          <input type="radio" name="Query">
+          <label for="SelectQuery">General Enquiry</label>
+        </div>
+        <div class="InptRadio">
+          <input type="radio" name="Query">
+          <label for="SelectQuery_">Support Request</label>
+        </div>
+      </div>
+      <div class="TextreaMess">
+        <p>Message *</p>
+        <textarea name="ElementsCamp" id="" onblur="NameValidation(event)"></textarea>
+      </div>
+      <div class="CheckBoxContainer">
+        <input type="checkbox" id="CheckBx">
+        <label for="CheckBx">
+          <p>I consent to being contacted the team *</p>
+        </label>
+      </div>
+      <div class="Submitt">
+        <input type="button" value="Enviar!" onclick="Submitt()">
+      </div>
+    </div>
+  </div>
+  <script src="./js/Script.js"></script>
+</body>
+
+</html>
